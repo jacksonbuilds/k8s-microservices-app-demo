@@ -1,0 +1,39 @@
+# Ignore Git metadata
+.git
+.gitignore
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+env/
+venv/
+.Python
+
+# Logs and system files
+*.log
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Test output and artifacts
+.coverage
+.tox/
+nosetests.xml
+test-results/
+junit-*.xml
+
+# Docker-specific
+docker-compose.override.yml
+docker/base_hardened_image/harden.yml  # If you're copying it differently
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Optional: OS backup files
+*~
