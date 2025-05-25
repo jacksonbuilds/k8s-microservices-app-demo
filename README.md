@@ -14,8 +14,6 @@ This project is a **portfolio-ready microservice demo** designed to:
 - Simulate an environment suitable for **CI/CD pipelines**
 - Serve as a platform to build on with frontend, database, and monitoring tools
 
-And of course — it's fun!
-
 ---
 
 ## 🧱 Tech Stack
